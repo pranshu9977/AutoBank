@@ -1,0 +1,7 @@
+<suite name = "Parallel Suite" paralle = "classes" thread-count="3">
+    <test name = "CucumberTest">
+        <classes>
+            <class name = "Runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

@@ -7,10 +7,11 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "Features",
-        glue = "src/test/java/StepDefinations",
+        glue = "StepDefinations",
         plugin = "pretty",
-        tags = "@Regression",
-        dryRun = true
+     //   tags = "@Regression",
+        dryRun = true,
+        monochrome = true
 )
 public class TestRunner {
 }

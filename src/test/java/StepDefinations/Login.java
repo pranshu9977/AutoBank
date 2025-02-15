@@ -1,9 +1,10 @@
 package StepDefinations;
 
+import Utilities.ScreenshotUtil;
 import Utilities.base;
 import io.cucumber.java.en.*;
 
-public class Login extends base {
+public class Login  {
 
     @Given("user open Url {string}")
     public void user_open_url(String string) {

@@ -31,7 +31,7 @@ public class ActonsClss extends one {
         System.out.println(driver.getTitle());
         Actions act = new Actions(driver);
         WebElement search = driver.findElement(By.xpath("//*[@class= 'gLFyf']"));
-        act.contextClick(search).perform();
+        act.contextClick(search).build().perform();
         act.click().perform();
         act.doubleClick(search).perform();
         FileInputStream file = null;

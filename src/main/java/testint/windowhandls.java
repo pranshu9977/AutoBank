@@ -1,7 +1,11 @@
 package testint;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
 import java.util.Set;
 
 public class windowhandls extends one {
@@ -24,6 +28,7 @@ public class windowhandls extends one {
 
         driver.switchTo().window(parenttab);
         System.out.println(  driver.getTitle());
+
 
     }
 }
